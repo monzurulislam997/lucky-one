@@ -20,6 +20,7 @@ const OrderDetails = (props) => {
                 {
                     singleWatches.map(watch=><AllOrderDetails
                         watch={watch}
+                        key={watch.id}
                     ></AllOrderDetails> 
                          )
                 }

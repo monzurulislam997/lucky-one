@@ -1,0 +1,13 @@
+
+.header{
+    background: #e6f2fe;
+    padding: 10px;
+  
+}
+nav{
+    width: 100%;
+    color:orangered;
+    text-align: center;
+    font-size: 25px;
+    /* padding-top:5px; */
+}

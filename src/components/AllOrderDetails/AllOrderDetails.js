@@ -4,7 +4,7 @@ const AllOrderDetails = ({watch}) => {
     return (
         <div className='order-info'>
             <img src={watch.img} alt="" />
-            <p>name:{watch.name}</p>
+            <p>{watch.name}</p>
             
         </div>
     );
