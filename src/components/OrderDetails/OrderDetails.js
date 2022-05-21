@@ -25,7 +25,8 @@ const OrderDetails = (props) => {
                          )
                 }
 
-         <button>Choose One</button>
+         <button>CHOOSE 1 FOR ME</button> <br />
+         <button> CHOOSE AGAIN</button>
 
         </div>
     );
