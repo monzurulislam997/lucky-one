@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# MEGA DISCOUNT WAR
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [MEGA DISCOUNT WAR](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
