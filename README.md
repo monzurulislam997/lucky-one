@@ -1,6 +1,6 @@
 # MEGA DISCOUNT WAR
 
-This project was bootstrapped with [MEGA DISCOUNT WAR](https://github.com/facebook/create-react-app).
+ [MEGA DISCOUNT WAR](https://gentle-hamster-a2248f.netlify.app/).
 
 ## Available Scripts
 
