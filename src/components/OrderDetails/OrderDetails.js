@@ -5,7 +5,9 @@ import './OrderDetails.css'
 
 const OrderDetails = (props) => {
     
-    const singleWatches=props.singleWatch;
+    let singleWatches=props.singleWatch;
+       const chooseAgainHandle=props.chooseAgainHandle;
+    
      const [choose,setChoose]=useState({})
     if(singleWatches.length>4){
        singleWatches.length=4;
@@ -17,10 +19,9 @@ const OrderDetails = (props) => {
         const min = 1;
         const max = 4;
         const intNumber = Math.floor(Math.random() * (max - min)) + min;
-        console.log(intNumber)
-         setChoose(singleWatches[intNumber])
+           setChoose(singleWatches[intNumber])
      
-        //   singleWatches.length=0;
+          
         
     }
    
@@ -43,7 +44,7 @@ const OrderDetails = (props) => {
                 }
 
          <button onClick={chooseOneHandle} className='choose-btn'>CHOOSE 1 FOR ME</button> <br />
-         <button className='reset-btn'> CHOOSE AGAIN</button>
+         <button onClick={chooseAgainHandle} className='reset-btn'> CHOOSE AGAIN</button>
 
         </div>
     );

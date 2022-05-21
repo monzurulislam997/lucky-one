@@ -19,6 +19,10 @@ const Watches = () => {
         const newWatch=[...singleWatch,watch]
         setSingleWatch(newWatch)
     }
+    const chooseAgainHandle=()=>{
+      
+      setSingleWatch([])
+     }
 
     return (
         <div className='shop-container'>
@@ -35,7 +39,7 @@ const Watches = () => {
         
         <div className='orderSummary-container'>
             
-            <OrderDetails singleWatch={singleWatch}></OrderDetails>
+            <OrderDetails chooseAgainHandle={chooseAgainHandle} singleWatch={singleWatch}></OrderDetails>
         </div>
         </div>
     );
